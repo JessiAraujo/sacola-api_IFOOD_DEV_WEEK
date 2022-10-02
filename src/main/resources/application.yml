@@ -9,8 +9,8 @@ spring:
       spring.h2.console.settings.web-allow-others: false
   datasource:
     url: jdbc:h2:mem:testdb
-    username: jessica
-    password: 1234
+    username:
+    password: 
     driverClassName: org.h2.Driver
   jpa:
     show-sql: true
